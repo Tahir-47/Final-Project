@@ -2,8 +2,8 @@ import streamlit_authenticator as stauth
 
 import postgreData as db
 
-usernames = ["tahir", "nihalR","nihalJ","dilu" ]
-names = ["Tahir Mohammed", "Nihal Rajeev", "Nihal Jasim", "Muhammed Dilu"]
+usernames = ["john", "kiran","rahul","jack" ]
+names = ["John Doe", "Kiran Doe", "Rahul Doe", "Jack Doe"]
 passwords = ["1234", "1234", "1234", "1234"]
 hashed_passwords = stauth.Hasher(passwords).generate()
 
