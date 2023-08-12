@@ -127,7 +127,7 @@ def get_system_stat(stframe1, stframe2, fps, df_fq, pic, pic2, time_now, time_be
 
                     image_array_rgb = cv2.cvtColor(image_array, cv2.COLOR_BGR2RGB)
                     image = Image.fromarray(image_array_rgb)
-                    image.save(f"C:/Users/hamim/Documents/TahirProjects/YoloStreamlit/SavedImages/{df_fq['Object'][ind]}_{current_date}_{time.time()}.jpg")  # Replace with the desired save path and file name
+                    image.save(f"folder_path/SavedImages/{df_fq['Object'][ind]}_{current_date}_{time.time()}.jpg")  # Replace with the desired save path and file name
 
             
 
