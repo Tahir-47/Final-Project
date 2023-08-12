@@ -4,7 +4,7 @@ import psycopg2
 #         host="localhost",
 #         port="5432",
 #         user="postgres",
-#         password="qet135",
+#         password="pass",
 #         database="Test"
 #     )
 #     # Create a cursor to execute SQL queries
@@ -32,7 +32,7 @@ def insert_user(username, name, password):
         host="localhost",
         port="5432",
         user="postgres",
-        password="qet135",
+        password="pass",
         database="Test"
     )
     # Create a cursor to execute SQL queries
@@ -60,7 +60,7 @@ def fetch_all_users():
         host="localhost",
         port="5432",
         user="postgres",
-        password="qet135",
+        password="pass",
         database="Test"
     )
 
@@ -94,7 +94,7 @@ def fetch_all_users():
 #         host="localhost",
 #         port="5432",
 #         user="postgres",
-#         password="qet135",
+#         password="pass",
 #         database="Test"
 #     )
 # # Create a cursor to execute SQL queries
@@ -103,7 +103,7 @@ def fetch_all_users():
 #     INSERT INTO People (Name, Phone, FloorNo)
 #     VALUES (%s, %s, %s);
 #     """,
-#     ("Nihal Rajeev", "+918129758611", "0")
+#     ("John Doe", "<phone_number>", "0")
 #     )
 
 # # Commit the transaction
@@ -119,7 +119,7 @@ def userSMS():
             host="localhost",
             port="5432",
             user="postgres",
-            password="qet135",
+            password="pass",
             database="Test"
         )
 
