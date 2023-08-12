@@ -9,7 +9,7 @@ import postgreData as db
 load_dotenv()
 
 
-users = ['+917306002304']#db.userSMS()
+users = ['<insert_phoneNo>']#db.userSMS()
 
 # Find your Account SID and Auth Token at twilio.com/console
 # and set the environment variables. See http://twil.io/secure
@@ -24,7 +24,7 @@ def sendSMS(msg):
         message = client.messages \
                         .create(
                             body=msg,
-                            from_='+12546003618',
+                            from_='<your_twilio_number>',
                             to=f'{user}'
                         )
 
