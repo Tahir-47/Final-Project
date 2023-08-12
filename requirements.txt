@@ -1,0 +1,34 @@
+# pip install -r requirements.txt
+
+# YOLOv8 --------------------------------------
+ultralytics
+
+# Streamlit -----------------------------------
+streamlit
+
+
+
+#Libraries
+deta
+python-dotenv
+streamlit-authenticator==0.1.5
+
+ndg-httpsclient
+pyopenssl 
+pyasn1 
+
+pyexcel
+openpyxl
+pyexcel-ods
+pyexcel_ods3
+
+streamlit-modal
+#--upgrade ultralytics
+
+streamlit-option-menu
+
+tensorboard>=2.4.1
+
+ipython
+
+twilio
